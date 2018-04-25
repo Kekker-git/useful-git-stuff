@@ -19,3 +19,6 @@ The rest of what Lioncash wrote is covered in Squashing Commits.
 ### Squashing Commits
 [Link](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)  
 Man, git really needs a simple `git squash` command. Basically, you take the last `n` commits you have and run `git rebase -i HEAD~n`. This will give you a text file, where you can squash commits into each other, then another text file where you can edit the commit message. This SHOULD work fine. If you want to delete commits, you'll want to look at `git reset`.
+
+## Makefiles
+https://stackoverflow.com/questions/909046/makefile-in-windows?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
